@@ -4,6 +4,14 @@
 
 Mini fullstack app for managing support tickets with React, Node.js, Express, and MongoDB.
 
+## For Reviewers
+
+**Assessment submission entry point:** [submission-index.md](tool-specific/cursor-workflow/submission-index.md)
+
+Also available at repo root: [SUBMISSION.md](SUBMISSION.md)
+
+Quick path: submission index → [tool-workflow.md](tool-specific/cursor-workflow/tool-workflow.md) (AI narrative) → [prompt-history.md](tool-specific/cursor-workflow/prompt-history.md) → [requirements-analysis.md](implementation-workflow/requirements-analysis.md) → `cd backend && npm test`
+
 ## Prerequisites
 
 - Node.js 18+
@@ -75,19 +83,22 @@ Backend integration tests include mandatory state-machine transition coverage.
 | File | Purpose |
 |------|---------|
 | [`candidate-info.md`](tool-specific/cursor-workflow/candidate-info.md) | Candidate metadata, tools, and setup summary |
+| [`tool-workflow.md`](tool-specific/cursor-workflow/tool-workflow.md) | **AI workflow narrative** — how Cursor was used across all phases |
 | [`acceptance-criteria.md`](tool-specific/cursor-workflow/acceptance-criteria.md) | Definitions of done (AC-1 through AC-11 + checkboxes) |
 | [`debugging-notes.md`](tool-specific/cursor-workflow/debugging-notes.md) | Requirement deviations and issue investigations |
 | [`spec.md`](tool-specific/cursor-workflow/spec.md) | Canonical schemas, API, and state machine |
 | [`tasks.md`](tool-specific/cursor-workflow/tasks.md) | Phased implementation checklist |
 | [`project-context.md`](tool-specific/cursor-workflow/project-context.md) | Stack, architecture, and conventions |
 | [`cursor-rules-or-instructions.md`](tool-specific/cursor-workflow/cursor-rules-or-instructions.md) | AI coding guardrails |
-| [`prompt-history.md`](tool-specific/cursor-workflow/prompt-history.md) | Prompt and outcome log |
+| [`prompt-history.md`](tool-specific/cursor-workflow/prompt-history.md) | Chronological AI prompt log (20 entries: planning → implementation → debugging → docs) |
+| [`submission-index.md`](tool-specific/cursor-workflow/submission-index.md) | **Assessor entry point** — doc map, verify steps, AC → test mapping |
 
 ## Project Structure
 
 ```
 js_ai_assignment/
 ├── README.md
+├── SUBMISSION.md                  # Pointer to submission index
 ├── docker-compose.yml             # Local MongoDB
 ├── .gitignore
 ├── .nvmrc
@@ -110,7 +121,9 @@ js_ai_assignment/
 │       ├── tasks.md
 │       ├── project-context.md
 │       ├── cursor-rules-or-instructions.md
-│       └── prompt-history.md
+│       ├── tool-workflow.md         # AI workflow narrative
+│       ├── prompt-history.md
+│       └── submission-index.md    # Assessor entry point
 │
 ├── backend/                       # Express + Mongoose API
 │   ├── package.json

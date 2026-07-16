@@ -6,6 +6,9 @@ AI-assisted and manual code review observations for the Support Ticket Managemen
 
 **Related documents:**
 
+- [submission-index.md](../tool-specific/cursor-workflow/submission-index.md) — assessor entry point
+- [tool-workflow.md](../tool-specific/cursor-workflow/tool-workflow.md) — narrative AI workflow
+- [prompt-history.md](../tool-specific/cursor-workflow/prompt-history.md) — review prompts and outcomes
 - [acceptance-criteria.md](../tool-specific/cursor-workflow/acceptance-criteria.md) — definitions of done
 - [api-contract.md](./api-contract.md) — API contract used as review baseline
 - [test-strategy.md](./test-strategy.md) — test coverage assessment

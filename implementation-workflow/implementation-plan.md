@@ -4,6 +4,9 @@ Iterative execution strategy across discrete milestones, with an explicit AI usa
 
 **Related documents:**
 
+- [submission-index.md](../tool-specific/cursor-workflow/submission-index.md) — assessor entry point
+- [tool-workflow.md](../tool-specific/cursor-workflow/tool-workflow.md) — narrative AI workflow
+- [prompt-history.md](../tool-specific/cursor-workflow/prompt-history.md) — chronological AI prompt log per milestone
 - [candidate-info.md](../tool-specific/cursor-workflow/candidate-info.md) — project metadata and setup
 - [requirements-analysis.md](./requirements-analysis.md) — domain and requirements
 - [acceptance-criteria.md](../tool-specific/cursor-workflow/acceptance-criteria.md) — definitions of done
@@ -180,7 +183,7 @@ flowchart LR
 
 ## AI Usage Plan
 
-This section documents how Cursor AI is used throughout the development lifecycle for review, testing, and debugging.
+This section documents how Cursor AI is used throughout the development lifecycle for review, testing, and debugging. See [tool-workflow.md](../tool-specific/cursor-workflow/tool-workflow.md) for the narrative workflow; individual prompts are logged in [prompt-history.md](../tool-specific/cursor-workflow/prompt-history.md).
 
 ### 1. Spec-First Prompting
 

@@ -4,6 +4,8 @@ Testing approach for the Support Ticket Management System — a MongoDB-backed f
 
 **Related documents:**
 
+- [submission-index.md](../tool-specific/cursor-workflow/submission-index.md) — assessor entry point
+- [tool-workflow.md](../tool-specific/cursor-workflow/tool-workflow.md) — narrative AI workflow
 - [acceptance-criteria.md](../tool-specific/cursor-workflow/acceptance-criteria.md) — definitions of done (AC-1 through AC-11)
 - [api-contract.md](./api-contract.md) — REST API schemas and error responses
 - [requirements-analysis.md](./requirements-analysis.md) — edge cases and assumptions

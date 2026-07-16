@@ -6,7 +6,10 @@ This document combines **Given/When/Then acceptance criteria (AC-1 through AC-11
 
 **Workflow references:**
 
+- [submission-index.md](./submission-index.md) — assessor entry point and documentation map
+- [tool-workflow.md](./tool-workflow.md) — narrative AI workflow (phases, decisions, validation gates)
 - [candidate-info.md](./candidate-info.md) — candidate metadata, tools, and setup
+- [prompt-history.md](./prompt-history.md) — AI prompt log with validation traceability
 - [spec.md](./spec.md) — schemas, API, state machine
 - [project-context.md](./project-context.md) — stack and conventions
 - [tasks.md](./tasks.md) — implementation phases

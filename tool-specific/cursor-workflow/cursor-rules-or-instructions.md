@@ -12,6 +12,7 @@ Before writing or modifying any application code, you MUST read:
 2. [tasks.md](./tasks.md) — current implementation phase and checkpoint
 3. [acceptance-criteria.md](./acceptance-criteria.md) — definitions of done
 4. [project-context.md](./project-context.md) — stack, layout, env vars
+5. [tool-workflow.md](./tool-workflow.md) — how AI is used across the lifecycle (for assessment traceability)
 
 Identify the **current phase** in [tasks.md](./tasks.md) and only implement tasks for that phase unless explicitly instructed otherwise.
 

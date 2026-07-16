@@ -196,6 +196,8 @@ AI was used as a pair programmer with validation via `npm test`, spec comparison
 
 ## Related Links
 
+- [submission-index.md](../tool-specific/cursor-workflow/submission-index.md) — assessor entry point
+- [tool-workflow.md](../tool-specific/cursor-workflow/tool-workflow.md) — narrative AI workflow
 - [api-contract.md](./api-contract.md) — REST API reference
 - [acceptance-criteria.md](../tool-specific/cursor-workflow/acceptance-criteria.md) — AC-1 through AC-11
 - [test-strategy.md](./test-strategy.md) — test coverage and gaps

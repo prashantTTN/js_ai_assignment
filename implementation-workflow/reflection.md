@@ -6,6 +6,9 @@ Post-project reflection on building the Support Ticket Management System with AI
 
 **Related documents:**
 
+- [submission-index.md](../tool-specific/cursor-workflow/submission-index.md) — assessor entry point
+- [tool-workflow.md](../tool-specific/cursor-workflow/tool-workflow.md) — narrative AI workflow
+- [prompt-history.md](../tool-specific/cursor-workflow/prompt-history.md) — chronological AI prompt log
 - [implementation-plan.md](./implementation-plan.md) — milestones and AI usage plan
 - [code-review-notes.md](./code-review-notes.md) — review findings
 - [debugging-notes.md](../tool-specific/cursor-workflow/debugging-notes.md) — deviations and issue investigations
@@ -142,6 +145,9 @@ AI was used as a **pair programmer** throughout — not as a one-shot code gener
 | `implementation-plan.md` | Milestones + AI usage plan (`implementation-workflow/`) |
 | `test-strategy.md` | Test scope, coverage, gaps (`implementation-workflow/`) |
 | `debugging-notes.md` | In `tool-specific/cursor-workflow/` — deviation log and issue investigations |
+| `tool-workflow.md` | Narrative AI workflow across phases (`tool-specific/cursor-workflow/`) |
+| `prompt-history.md` | Chronological AI prompt log (`tool-specific/cursor-workflow/`) |
+| `submission-index.md` | Assessor entry point and doc map (`tool-specific/cursor-workflow/`) |
 | `code-review-notes.md` | Review findings (`implementation-workflow/`) |
 | `reflection.md` | This file (`implementation-workflow/`) |
 | `pr-description.md` | PR summary template (`implementation-workflow/`) |
@@ -154,3 +160,4 @@ AI was used as a **pair programmer** throughout — not as a one-shot code gener
 4. Manual walkthrough against acceptance criteria checklist
 5. Populate evaluation docs from actual codebase (not aspirational designs)
 6. Log every spec deviation and debugging session for traceability
+7. Maintain [prompt-history.md](../tool-specific/cursor-workflow/prompt-history.md) with context, intent, refinement, and validation per prompt

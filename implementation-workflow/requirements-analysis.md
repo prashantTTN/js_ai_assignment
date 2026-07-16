@@ -6,6 +6,8 @@ This document captures our understanding of the multi-entity domain, functional 
 
 **Related documents:**
 
+- [submission-index.md](../tool-specific/cursor-workflow/submission-index.md) — assessor entry point
+- [tool-workflow.md](../tool-specific/cursor-workflow/tool-workflow.md) — narrative AI workflow
 - [candidate-info.md](../tool-specific/cursor-workflow/candidate-info.md) — project metadata and setup
 - [api-contract.md](./api-contract.md) — REST API schemas and error responses
 - [acceptance-criteria.md](../tool-specific/cursor-workflow/acceptance-criteria.md) — definitions of done

@@ -4,6 +4,9 @@ Document deviations from [spec.md](./spec.md) or [tasks.md](./tasks.md), and det
 
 **Implementation workflow references:**
 
+- [submission-index.md](./submission-index.md) — assessor entry point
+- [tool-workflow.md](./tool-workflow.md) — narrative AI workflow
+- [prompt-history.md](./prompt-history.md) — AI prompts that led to fixes documented here
 - [api-contract.md](../../implementation-workflow/api-contract.md) — canonical API contract
 - [test-strategy.md](../../implementation-workflow/test-strategy.md) — test coverage and gaps
 - [acceptance-criteria.md](./acceptance-criteria.md) — definitions of done
