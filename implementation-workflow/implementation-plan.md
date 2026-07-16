@@ -4,9 +4,9 @@ Iterative execution strategy across discrete milestones, with an explicit AI usa
 
 **Related documents:**
 
-- [candidate-info.md](./candidate-info.md) — project metadata and setup
+- [candidate-info.md](../tool-specific/cursor-workflow/candidate-info.md) — project metadata and setup
 - [requirements-analysis.md](./requirements-analysis.md) — domain and requirements
-- [acceptance-criteria.md](./acceptance-criteria.md) — definitions of done
+- [acceptance-criteria.md](../tool-specific/cursor-workflow/acceptance-criteria.md) — definitions of done
 - [api-contract.md](./api-contract.md) — REST API contract
 
 ---
@@ -34,7 +34,8 @@ flowchart LR
 
 ### Deliverables
 
-- [x] Root evaluation docs: `candidate-info.md`, `requirements-analysis.md`, `acceptance-criteria.md`, `implementation-plan.md`, `api-contract.md`
+- [x] Evaluation docs: `tool-specific/cursor-workflow/candidate-info.md`, `implementation-workflow/` (requirements, plan, API contract, test strategy, review, reflection, PR)
+- [x] Merged `acceptance-criteria.md` in `tool-specific/cursor-workflow/`
 - [x] Root `.gitignore` excluding `.env`, `node_modules/`, `dist/`, `coverage/`
 - [x] `backend/.env.example` and `frontend/.env.example` with placeholder keys
 - [x] Supplementary workflow docs in `tool-specific/cursor-workflow/`
@@ -165,14 +166,14 @@ flowchart LR
 
 - [x] Backend integration tests pass (`npm test`)
 - [x] Root evaluation documentation complete
-- [ ] Full walkthrough of all items in [acceptance-criteria.md](./acceptance-criteria.md)
+- [ ] Full walkthrough of all items in [acceptance-criteria.md](../tool-specific/cursor-workflow/acceptance-criteria.md)
 - [ ] Manual persistence test (restart backend + MongoDB, verify data intact)
 - [ ] Frontend page tests (`TicketListPage.test.jsx`, `CreateTicketPage.test.jsx`) — optional enhancement
 - [ ] Secret scan (`git grep` for passwords, API keys, session secrets)
 
 ### Verification Gate
 
-- All checkboxes in [acceptance-criteria.md](./acceptance-criteria.md) Definition of Done marked complete
+- All checkboxes in [acceptance-criteria.md](../tool-specific/cursor-workflow/acceptance-criteria.md) Definition of Done marked complete
 - No secrets in git history
 
 ---

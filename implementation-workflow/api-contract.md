@@ -10,7 +10,7 @@ Canonical REST API contract for the MongoDB-backed Support Ticket Management Sys
 **Related documents:**
 
 - [requirements-analysis.md](./requirements-analysis.md) — domain model and state machine rules
-- [acceptance-criteria.md](./acceptance-criteria.md) — verification checkboxes
+- [acceptance-criteria.md](../tool-specific/cursor-workflow/acceptance-criteria.md) — verification checkboxes
 
 ---
 

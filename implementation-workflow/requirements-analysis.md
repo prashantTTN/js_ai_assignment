@@ -6,9 +6,9 @@ This document captures our understanding of the multi-entity domain, functional 
 
 **Related documents:**
 
-- [candidate-info.md](./candidate-info.md) — project metadata and setup
+- [candidate-info.md](../tool-specific/cursor-workflow/candidate-info.md) — project metadata and setup
 - [api-contract.md](./api-contract.md) — REST API schemas and error responses
-- [acceptance-criteria.md](./acceptance-criteria.md) — definitions of done
+- [acceptance-criteria.md](../tool-specific/cursor-workflow/acceptance-criteria.md) — definitions of done
 
 ---
 
@@ -306,8 +306,8 @@ New tickets always start with `status: "open"`. Status changes are requested via
 
 | Requirement Area | Acceptance Criteria | API Contract | Integration Tests |
 |------------------|--------------------|--------------|--------------------|
-| Ticket CRUD | [acceptance-criteria.md](./acceptance-criteria.md) — Core | [api-contract.md](./api-contract.md) | `tickets.test.js` |
-| State machine | [acceptance-criteria.md](./acceptance-criteria.md) — Strict State Validation | `PATCH .../status` | `stateMachine.test.js` |
-| Comments | [acceptance-criteria.md](./acceptance-criteria.md) — Core | `POST .../comments` | `comments.test.js` |
-| Error handling | [acceptance-criteria.md](./acceptance-criteria.md) — Centralized Error Handling | Error response schemas | All test files |
-| Persistence | [acceptance-criteria.md](./acceptance-criteria.md) — Core | — | Manual verification |
+| Ticket CRUD | [acceptance-criteria.md](../tool-specific/cursor-workflow/acceptance-criteria.md) — AC-1–AC-5 | [api-contract.md](./api-contract.md) | `tickets.test.js` |
+| State machine | [acceptance-criteria.md](../tool-specific/cursor-workflow/acceptance-criteria.md) — AC-6, Strict State Validation | `PATCH .../status` | `stateMachine.test.js` |
+| Comments | [acceptance-criteria.md](../tool-specific/cursor-workflow/acceptance-criteria.md) — AC-5 | `POST .../comments` | `comments.test.js` |
+| Error handling | [acceptance-criteria.md](../tool-specific/cursor-workflow/acceptance-criteria.md) — AC-9, Centralized Error Handling | Error response schemas | All test files |
+| Persistence | [acceptance-criteria.md](../tool-specific/cursor-workflow/acceptance-criteria.md) — AC-8 | — | Manual verification |

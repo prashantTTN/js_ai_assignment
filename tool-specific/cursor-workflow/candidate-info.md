@@ -135,12 +135,18 @@ Backend integration tests are the mandatory verification gate for the ticket sta
 
 | Document | Purpose |
 |----------|---------|
-| [requirements-analysis.md](./requirements-analysis.md) | Domain model, functional/non-functional requirements, assumptions, edge cases |
+| [requirements-analysis.md](../../implementation-workflow/requirements-analysis.md) | Domain model, functional/non-functional requirements, assumptions, edge cases |
 | [acceptance-criteria.md](./acceptance-criteria.md) | Actionable definitions of done with verification checkboxes |
-| [implementation-plan.md](./implementation-plan.md) | Milestone execution strategy and AI usage plan |
-| [api-contract.md](./api-contract.md) | REST API schemas, validation rules, and error responses |
-| [README.md](./README.md) | Quick-start commands and project structure |
-| [tool-specific/cursor-workflow/](./tool-specific/cursor-workflow/) | Supplementary spec-driven workflow history |
+| [implementation-plan.md](../../implementation-workflow/implementation-plan.md) | Milestone execution strategy and AI usage plan |
+| [api-contract.md](../../implementation-workflow/api-contract.md) | REST API schemas, validation rules, and error responses |
+| [README.md](../../README.md) | Quick-start commands and project structure |
+| [test-strategy.md](../../implementation-workflow/test-strategy.md) | Test scope, integration tests, coverage gaps |
+| [debugging-notes.md](./debugging-notes.md) | Deviations and issue investigations |
+| [code-review-notes.md](../../implementation-workflow/code-review-notes.md) | AI-assisted and manual review findings |
+| [reflection.md](../../implementation-workflow/reflection.md) | Project reflection and reusable workflow |
+| [pr-description.md](../../implementation-workflow/pr-description.md) | Pull request summary template |
+| [spec.md](./spec.md) | Canonical schemas, API, and state machine |
+| [tasks.md](./tasks.md) | Phased implementation checklist |
 
 ---
 
