@@ -12,7 +12,7 @@
     "test:watch": "vitest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Prashant Baliyan",
   "license": "ISC",
   "engines": {
     "node": ">=18"

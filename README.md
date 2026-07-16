@@ -1,5 +1,7 @@
 # Support Ticket Management System
 
+**Author:** Prashant Baliyan
+
 Mini fullstack app for managing support tickets with React, Node.js, Express, and MongoDB.
 
 ## Prerequisites
@@ -54,13 +56,23 @@ cd frontend && npm test
 
 Backend integration tests include mandatory state-machine transition coverage.
 
+## Evaluation Documentation
+
+Baseline evaluation docs at the project root:
+
+- [`candidate-info.md`](candidate-info.md) — candidate metadata and setup summary
+- [`requirements-analysis.md`](requirements-analysis.md) — domain, requirements, edge cases
+- [`acceptance-criteria.md`](acceptance-criteria.md) — definitions of done (checkboxes)
+- [`implementation-plan.md`](implementation-plan.md) — milestones and AI usage plan
+- [`api-contract.md`](api-contract.md) — REST API schemas and error responses
+
 ## Spec-Driven Workflow
 
-See [`tool-specific/cursor-workflow/`](tool-specific/cursor-workflow/) for:
+See [`tool-specific/cursor-workflow/`](tool-specific/cursor-workflow/) for supplementary workflow history:
 
-- `spec.md` — schemas and API contract
+- `spec.md` — original schemas and API contract
 - `tasks.md` — implementation phases
-- `acceptance-criteria.md` — definitions of done
+- `acceptance-criteria.md` — detailed AC-1 through AC-11 criteria
 
 ## Project Structure
 

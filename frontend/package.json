@@ -2,6 +2,7 @@
   "name": "support-tickets-frontend",
   "private": true,
   "version": "1.0.0",
+  "author": "Prashant Baliyan",
   "type": "module",
   "scripts": {
     "dev": "vite",
